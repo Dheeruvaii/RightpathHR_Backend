@@ -1,7 +1,8 @@
 from rest_framework import serializers
-from .models import Destination
+from apps.homeapp.models import Destination
+
 
 class DestinationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Destination
-        fields = ['id', 'name', 'description', 'image_url']
+        fields = ["id", "name", "description", "image_url"]
