@@ -6,6 +6,7 @@ DEBUG = True
 INSTALLED_APPS_DEV = [
     # Add development-specific apps here
     "apps.homeapp",
+    "apps.authapp",
 ]
 
 INSTALLED_APPS += INSTALLED_APPS_DEV
