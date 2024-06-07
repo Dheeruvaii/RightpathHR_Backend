@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Tabs } from "@//components/ui/tabs";
+import { Tabs } from "@/components/ui/tabs";
 
 export function TabsDemo() {
   const tabs = [
@@ -49,7 +49,7 @@ export function TabsDemo() {
   ];
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40 px-2">
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40 px-2 pb-6">
       <Tabs tabs={tabs} />
     </div>
   );
