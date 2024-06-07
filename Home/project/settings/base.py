@@ -17,7 +17,7 @@ INSTALLED_APPS_BASE = [
     "django.contrib.staticfiles",
     "rest_framework",
     "django_filters",
-    # "rest_framework_simplejwt",
+    "rest_framework_simplejwt",
 ]
 
 INSTALLED_APPS = INSTALLED_APPS_BASE
@@ -33,6 +33,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "project.urls"
+
+AUTH_USER_MODEL = "authapp.CustomUser"
 
 TEMPLATES = [
     {
