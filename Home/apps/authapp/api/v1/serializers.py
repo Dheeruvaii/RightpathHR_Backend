@@ -19,7 +19,8 @@ class CustomUserSerializer(serializers.ModelSerializer):
         fields = (
             "id",
             "email",
-            "username",
+            "firstname",
+            "lastname",
             "password",
             "password_confirmation",
             "is_active",
@@ -53,9 +54,11 @@ class LoginSerializer(serializers.Serializer):
     def validate(self, data):
         email = data.get("email", "")
         password = data.get("password", "")
+        otp = None
 
         if email and password:
             user = authenticate(email=email, password=password)
+            print(user)
             if user:
                 if not user.is_active:
                     msg = "User account is disabled."
