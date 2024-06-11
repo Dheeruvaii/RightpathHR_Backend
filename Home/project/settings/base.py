@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = "django-insecure-!7u75fay7@)#o^etp1m$^e0cu&%*@-y6ha5st38tqtq#omx#+m"
 
-ALLOWED_HOSTS = ["rightpathhr-backend.onrender.com"]
+ALLOWED_HOSTS = ["rightpathhr-backend.onrender.com", "127.0.0.1"]
 
 # Common settings shared across all environments
 INSTALLED_APPS_BASE = [
