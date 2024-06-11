@@ -10,7 +10,7 @@ type Tab = {
   content?: string | React.ReactNode | any;
 };
 
-export const Tabs = ({
+export const  Tabs = ({
   tabs: propTabs,
   containerClassName,
   activeTabClassName,
@@ -100,7 +100,7 @@ export const FadeInDiv = ({
     return tab.value === tabs[0].value;
   };
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-[32rem]">
       {tabs.map((tab, idx) => (
         <motion.div
           key={tab.value}

@@ -8,10 +8,10 @@ import { PlaceholdersAndVanishInputDemo } from "./PlaceholdersAndVanishInputDemo
 
 export function MeteorsDemo() {
   return (
-    <div className=" w-full relative max-w-full h-80">
+    <div className=" w-full relative max-w-full h-80 mt-12">
       <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 blur-3xl" />
       <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-12 h-full overflow-hidden  flex flex-col justify-end items-start space-y-3">
-        <div className="flex grid grid-cols-12 h-72 w-full text-gray-300 space-x-8 z-30">
+        <div className=" grid grid-cols-12 h-72 w-full text-gray-300 space-x-8 z-30">
           <div className="col-span-6 flex-col space-y-8">
             <div className="font-bold text-2xl">Right Path HR Consultancy</div>
             <div className="">

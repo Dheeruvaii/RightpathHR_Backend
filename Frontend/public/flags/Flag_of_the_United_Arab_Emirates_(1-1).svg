@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 1448.00 1448.00">
+<g stroke-width="2.00" fill="none" stroke-linecap="butt">
+<path stroke="#803a16" vector-effect="non-scaling-stroke" d="
+  M 543.00 0.00
+  L 542.98 482.50"
+/>
+<path stroke="#ff8080" vector-effect="non-scaling-stroke" d="
+  M 542.98 482.50
+  L 542.79 965.25"
+/>
+<path stroke="#800000" vector-effect="non-scaling-stroke" d="
+  M 542.79 965.25
+  Q 542.72 1191.16 542.76 1417.08
+  Q 542.76 1417.19 543.05 1430.78
+  Q 543.24 1439.42 542.50 1448.00"
+/>
+<path stroke="#80ba95" vector-effect="non-scaling-stroke" d="
+  M 1448.00 482.75
+  Q 995.78 482.75 543.56 482.75
+  Q 543.49 482.44 542.98 482.50"
+/>
+<path stroke="#808080" vector-effect="non-scaling-stroke" d="
+  M 1448.00 965.25
+  L 542.79 965.25"
+/>
+</g>
+<path fill="#ff0000" d="
+  M 0.00 0.00
+  L 543.00 0.00
+  L 542.98 482.50
+  L 542.79 965.25
+  Q 542.72 1191.16 542.76 1417.08
+  Q 542.76 1417.19 543.05 1430.78
+  Q 543.24 1439.42 542.50 1448.00
+  L 0.00 1448.00
+  L 0.00 0.00
+  Z"
+/>
+<path fill="#00742b" d="
+  M 543.00 0.00
+  L 1448.00 0.00
+  L 1448.00 482.75
+  Q 995.78 482.75 543.56 482.75
+  Q 543.49 482.44 542.98 482.50
+  L 543.00 0.00
+  Z"
+/>
+<path fill="#ffffff" d="
+  M 542.98 482.50
+  Q 543.49 482.44 543.56 482.75
+  Q 995.78 482.75 1448.00 482.75
+  L 1448.00 965.25
+  L 542.79 965.25
+  L 542.98 482.50
+  Z"
+/>
+<path fill="#000000" d="
+  M 542.79 965.25
+  L 1448.00 965.25
+  L 1448.00 1448.00
+  L 542.50 1448.00
+  Q 543.24 1439.42 543.05 1430.78
+  Q 542.76 1417.19 542.76 1417.08
+  Q 542.72 1191.16 542.79 965.25
+  Z"
+/>
+</svg>
