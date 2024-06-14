@@ -27,6 +27,7 @@ schema_view = get_schema_view(
         title="Your API",
         default_version="v1",
         description="API documentation",
+        permission_classes=(permissions.AllowAny,),
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="contact@yourapi.local"),
         license=openapi.License(name="BSD License"),
