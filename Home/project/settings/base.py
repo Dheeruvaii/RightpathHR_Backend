@@ -19,9 +19,11 @@ INSTALLED_APPS_BASE = [
     "rest_framework",
     "django_filters",
     "rest_framework_simplejwt",
+    "drf_yasg",
 ]
 
 INSTALLED_APPS = INSTALLED_APPS_BASE
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
