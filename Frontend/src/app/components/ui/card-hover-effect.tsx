@@ -11,7 +11,7 @@ export const HoverEffect = ({
   items: {
     title: string;
     description: string;
-    link: string;
+    link:string;
     image: string | StaticImageData;
   }[];
   className?: string;
@@ -27,11 +27,12 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <Link
-          href={item?.link}
-          key={item?.link}
+          href={item.link}
+          key={`${item}+1`}
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
+          onClick={(e) => e.preventDefault()}
         >
           <AnimatePresence>
             {hoveredIndex === idx && (
