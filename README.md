@@ -1,4 +1,4 @@
-## Django Boilerplate
+## Documentation
 
 ### Description:
 This boilerplate for Django projects integrates various tools and configurations to enhance code quality, consistency, and development workflow. It includes Poetry for dependency management, a Makefile for automation, Flake8 for linting, EditorConfig for consistent coding styles, and pre-commit hooks for automatic checks before committing code changes.
